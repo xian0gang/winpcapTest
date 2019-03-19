@@ -13,12 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    pcappth.cpp \
+    utils.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    pcappth.h \
+    utils.h
 
 FORMS    += mainwindow.ui
 
-INCLUDEPATH += E:/Qt/qtForAndroidExample/rawSocket/WpdPack/include
-LIBS += E:/Qt/qtForAndroidExample/rawSocket/WpdPack/Lib/wpcap.lib
+INCLUDEPATH += $$PWD/WpdPack/Include
+LIBS += D:/git/gitclone/winpcapTest/WpdPack/Lib/wpcap.lib
 LIBS += -lWs2_32

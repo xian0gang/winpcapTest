@@ -1,0 +1,8 @@
+*.yuv
+*.Debug
+*.Release
+*.log
+/debug
+/release
+*.user
+Makefile
